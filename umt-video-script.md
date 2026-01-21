@@ -78,7 +78,7 @@ The key insight: *you don't choose between data models. You model canonically an
 
 ### [4:00–5:30] IMPLEMENTATION: EVERY SHAPE FROM ONE SOURCE
 
-Theory's great. Implementation matters. Oracle Database 23ai is the first complete implementation of UMT.
+Theory's great. Implementation matters. Oracle Database 26ai is the first complete implementation of UMT.
 
 Here's what it actually looks like:
 
@@ -185,7 +185,7 @@ Unified Model Theory gives you better questions:
 
 Model once. Project as documents, graphs, time series, or relations. Serve every consumer from one source of truth.
 
-That's the future of data architecture. And it's available today in Oracle Database 23ai.
+That's the future of data architecture. And it's available today in Oracle Database 26ai.
 
 I'm Rick Houlihan. Let's go build something intelligent.
 

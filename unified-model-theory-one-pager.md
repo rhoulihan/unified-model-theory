@@ -52,7 +52,7 @@ One truth. Every shape. Zero tradeoffs.
 
 **From Theory to Implementation**
 
-Oracle Database 23ai implements UMT with native support for every projected shape:
+Oracle Database 26ai implements UMT with native support for every projected shape:
 
 ```sql
 -- Document projection
@@ -115,7 +115,7 @@ AI applications need vectors + documents + graph + time series in the same query
 > *Model once. Project as documents, graphs, time series, or relations.*
 > *Serve every consumer from one source of truth.*
 
-**Oracle Database 23ai** — Unified Model Theory, implemented.
+**Oracle Database 26ai** — Unified Model Theory, implemented.
 
 ---
 

@@ -296,4 +296,4 @@ UMT resolves it:
 
 ---
 
-**Oracle Database 23ai** — Unified Model Theory, implemented.
+**Oracle Database 26ai** — Unified Model Theory, implemented.
