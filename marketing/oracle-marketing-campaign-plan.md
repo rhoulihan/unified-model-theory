@@ -1,8 +1,8 @@
 # Oracle Database Marketing Campaign Plan
 ## "The Science of Data: Why Architecture Matters"
 
-**Campaign Duration:** Q2-Q4 2025
-**Target Audience:** Enterprise Architects, CTOs, Database Administrators, Application Developers
+**Campaign Duration:** Q2-Q4 2025<br>
+**Target Audience:** Enterprise Architects, CTOs, Database Administrators, Application Developers<br>
 **Primary Competitors:** MongoDB Atlas, AWS Purpose-Built Databases, PostgreSQL-Compatible Distributed Databases
 
 ---
