@@ -104,10 +104,10 @@ Each specialized database innovated in areas where relational platforms lagged: 
 
 But RDBMS platforms didn't stand still. They responded by incorporating these capabilities natively:
 
-- **Native JSON support** with binary storage formats (Oracle's OSON delivers the same performance benefits as BSON—O(1) field access instead of O(n) parsing)
+- **Native JSON support** with binary storage formats (Oracle's OSON delivers superior performance—O(1) field access instead of BSON's O(n) parsing)
 - **Property graph engines** integrated directly into the SQL engine
 - **Time series optimizations** with temporal queries on operational data
-- **Vector indexes** for similarity search and AI/RAG workloads
+- **Vector indexes** with integrated embedding models for similarity search and AI/RAG workloads
 
 The result: a converged database architecture where specialized capabilities run on a unified storage layer with ACID guarantees—eliminating the integration tax of polyglot persistence.
 
