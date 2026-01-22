@@ -66,7 +66,7 @@ Let me introduce six concepts that let you evaluate any data architecture:
 
 **Projected Shape.** Any data model derived from canonical form—documents, graphs, time series, vectors. Each optimized for a specific access pattern.
 
-**Shape Projection.** The declarative mapping that transforms canonical data into any consumable shape. Not ETL. Not a materialized view. A live, bidirectional transformation.
+**Projection.** The declarative mapping that transforms canonical data into any consumable shape. Not ETL. Not a materialized view. A live, bidirectional transformation.
 
 **Access Surface.** The interface your applications use—SQL for analytics, document APIs for CRUD, graph queries for traversal. Same data, multiple interfaces.
 

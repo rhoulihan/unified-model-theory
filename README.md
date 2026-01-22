@@ -31,7 +31,7 @@ The industry responded by creating polyglot persistence—five databases for fiv
 |---------|------------|
 | **Canonical Form** | The normalized relational structure—your single source of truth, optimized for integrity, storage efficiency, and analytics |
 | **Projected Shape** | Any data model projection derived from canonical form—document, graph, time series, or relational—optimized for a specific access pattern |
-| **Shape Projection** | The declarative mapping that transforms canonical data into any consumable shape |
+| **Projection** | The declarative mapping that transforms canonical data into any consumable shape |
 | **Access Surface** | The interface through which applications consume data—SQL, SODA, MongoDB API, REST, GraphQL, SPARQL, Property Graph queries |
 | **Access Dimension** | The workload orientation: OLAP (analytics), OLTP (transactions), OATP (hybrid), Graph Analytics, or Time Series |
 

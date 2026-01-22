@@ -21,7 +21,7 @@ This was never a technology problem. It was a modeling problem—and we've been 
 |---------|------------|
 | **Canonical Form** | The normalized relational structure—your single source of truth |
 | **Projected Shape** | Any data model (document, graph, time series, vector) optimized for a specific access pattern |
-| **Shape Projection** | The declarative mapping from canonical form to any consumable shape |
+| **Projection** | The declarative mapping from canonical form to any consumable shape |
 | **Access Surface** | The interface layer—SQL, document API, graph queries, or all three |
 
 Under UMT, you don't choose between data models. You model your domain canonically, then *project* it into whatever shapes your consumers require.
