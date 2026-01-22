@@ -111,9 +111,9 @@ But RDBMS platforms didn't stand still. They responded by incorporating these ca
 
 The result: a converged database architecture where specialized capabilities run on a unified storage layer with ACID guarantees—eliminating the integration tax of polyglot persistence.
 
-#### Oracle Database: UMT Implemented
+#### The Oracle 26ai Database: UMT Implemented
 
-Oracle Database is the first complete implementation of Unified Model Theory, with native support for every projected shape:
+Oracle 26ai is the first complete implementation of Unified Model Theory, with native support for every projected shape:
 
 #### Document Projection (JSON Relational Duality)
 
