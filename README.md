@@ -7,13 +7,15 @@
 
 For decades, architects faced impossible choices: relational integrity or document agility? Graph relationships or time series analytics? Every data model meant another database, another sync pipeline, another consistency boundary.
 
-Choose relational, and developers wrestle with object-relational impedance mismatch—the friction of mapping application objects to normalized tables, the complexity of ORMs, the boilerplate that slows every project.
+- **Choose relational**, and developers wrestle with object-relational impedance mismatch—the friction of mapping application objects to normalized tables, the complexity of ORMs, the boilerplate that slows every project.
 
-Choose documents, and you inherit denormalization debt, update anomalies, and eventual consistency workarounds.
+- **Choose documents**, and you inherit denormalization debt, update anomalies, and eventual consistency workarounds.
 
-Need graph traversal? Add Neo4j and a sync pipeline.
+- **Need graph traversal?** Add Neo4j and a sync pipeline.
 
-Need time series? Add InfluxDB and another CDC stream.
+- **Need time series?** Add InfluxDB and another CDC stream.
+
+- **Need vector search for AI?** Add Pinecone and yet another integration point.
 
 The industry responded by creating polyglot persistence—five databases for five access patterns, five consistency models, five points of failure. Each solved one problem while creating new ones.
 
