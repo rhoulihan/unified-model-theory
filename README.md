@@ -3,7 +3,7 @@
 
 ---
 
-### The Problem We Created
+### The Problem Data Science Created
 
 For decades, architects faced impossible choices: relational integrity or document agility? Graph relationships or time series analytics? Every data model meant another database, another sync pipeline, another consistency boundary.
 
