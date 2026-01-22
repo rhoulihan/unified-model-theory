@@ -69,6 +69,14 @@ Not all workloads are the same. The **Access Dimension** defines how your applic
 
 *OATP = Operational Analytics and Transaction Processing*
 
+---
+
+### The Core Principle
+
+> **Model once. Project as documents, graphs, time series, or relations. Serve every consumer from one source of truth.**
+
+Your entities, relationships, and constraints live in canonical form—normalized, consistent, governed, queryable with SQL for analytics and reporting.
+
 **The multimodal problem is where traditional architectures break down.**
 
 Modern applications—especially AI applications—need multiple data models in the same query:
@@ -79,14 +87,6 @@ Modern applications—especially AI applications—need multiple data models in 
 - IoT analytics need time series + geospatial + document metadata
 
 With polyglot persistence, each capability means another database, another sync pipeline, another consistency boundary. With UMT, they're all projections of the same canonical form.
-
----
-
-### The Core Principle
-
-> **Model once. Project as documents, graphs, time series, or relations. Serve every consumer from one source of truth.**
-
-Your entities, relationships, and constraints live in canonical form—normalized, consistent, governed, queryable with SQL for analytics and reporting.
 
 Your APIs, microservices, and applications consume projected shapes—document structures, graph traversals, time series aggregations, or relational joins—each optimized for their specific access patterns.
 
@@ -212,7 +212,9 @@ Assemble context for LLM
 
 - 5 round trips, 5 consistency models, 5 failure modes
 - Context may be stale, inconsistent, or incomplete
-- **Result:** Hallucinations with authoritative tone
+- 5 APIs to learn, 5 client libraries to maintain, 5 connection pools to manage
+- 5 infrastructure stacks to provision, monitor, and scale independently
+- **Result:** AI hallucinations from stale context, plus developer pain from integration complexity
 
 **With Unified Model Theory (Oracle):**
 ```sql
