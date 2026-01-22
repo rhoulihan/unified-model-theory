@@ -214,7 +214,7 @@ Assemble context for LLM
 - Context may be stale, inconsistent, or incomplete
 - 5 APIs to learn, 5 client libraries to maintain, 5 connection pools to manage
 - 5 infrastructure stacks to provision, monitor, and scale independently
-- **Result:** AI hallucinations from stale context, plus developer pain from integration complexity
+- **Result:** AI hallucinations and developer pain
 
 **With Unified Model Theory (Oracle):**
 ```sql
@@ -242,7 +242,7 @@ When your data models are projections instead of replicas, entire categories of 
 | Pinecone (vectors) | Native vector indexes |
 | CDC pipelines | Eliminated (no replicas to sync) |
 | ETL jobs | Eliminated (no warehouses to feed) |
-| ORMs | Eliminated (documents map directly) |
+| ORMs | Not required (documents map directly) |
 | Caching layers | Reduced (no cross-system latency to hide) |
 | Saga patterns | Eliminated (ACID across all models) |
 
